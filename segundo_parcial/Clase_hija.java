@@ -26,7 +26,7 @@ public class Clase_Hija extends Clase_Padre {
     }
     
     public float areaB(float b){
-    float areaB=b*b;
+    float areaB=(float)Math.pow(b,2);
     return areaB;
     }
     

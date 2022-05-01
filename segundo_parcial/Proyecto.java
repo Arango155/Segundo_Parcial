@@ -10,8 +10,8 @@ public class Proyecto {
     public static void main(String[] args) {
         
     Scanner entrada = new Scanner(System.in);
-    int op,op2;
-    float l,b,h,a;
+    int op,op2,op3;
+    float l,b,h,a,ab;
     
         
         System.out.println("Bienvenido al programa para el cálculo de areas, perimetros y volumenes de figuras geometricas en 3 dimensiones \n");
@@ -105,6 +105,18 @@ public class Proyecto {
                
                 }
                     
+                    case 3: {
+                        
+                        System.out.println("\n\nIngrese el valor de la anchura: "); 
+                        a=entrada.nextFloat();
+                        System.out.println("\n\nIngrese el valor de la base: "); 
+                        b=entrada.nextFloat();
+                        System.out.println("\n\nIngrese el valor de la altura: "); 
+                        h=entrada.nextFloat();
+                        System.out.println("El perimetro es de: "+hija.volumenR(h,b,a));
+               
+                }
+                    
                    
                    
                 }
@@ -144,14 +156,49 @@ public class Proyecto {
                
                 }
                     
+                     case 3: {
+                         
+                        System.out.println("\n\nConoce el valor del area de la base?, si=1, no=2: "); 
+                        op3=entrada.nextInt();
+                        
+                    switch (op3){
                    
-                   
-                }
-        break;
-
-    }
-    
+                        case 1: 
+                            
+                        System.out.println("\n\nIngrese el valor del area de la base: "); 
+                        ab=entrada.nextFloat();
+                        System.out.println("\n\nIngrese el valor de la altura: "); 
+                        h=entrada.nextFloat();
+                        System.out.println("El perimetro es de: "+hija.volumenT(h,ab));
+                    
+                    
+                    case 2:
+                    
+                        System.out.println("\n\nIngrese el valor de la base: "); 
+                        b=entrada.nextFloat();
+                        System.out.println("El area de la base es de: "+hija.areaB(b));
+                        ab=hija.areaB(b);
+                       
+                        System.out.println("\n\nIngrese el valor de la altura: "); 
+                        h=entrada.nextFloat();
+                        System.out.println("El perimetro es de: "+hija.volumenT(h,ab));
+                    
+                        
         
+                       
+                }
+                 
+                break;
+                   
+                  
+        
+        
+    }
+
+}
+      break;
+    
+        }
         
         
     }
