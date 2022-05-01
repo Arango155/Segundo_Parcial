@@ -1,6 +1,5 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Esta es la clase hija, aqui estan contenidas las funciones especificas a cada figura
  */
 package segundo_parcial;
 
@@ -8,6 +7,6 @@ package segundo_parcial;
  *
  * @author jdara
  */
-public class Clase_hija {
+public class Clase_hija  {
     
 }
