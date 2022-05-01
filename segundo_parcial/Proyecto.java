@@ -11,7 +11,7 @@ public class Proyecto {
         
     Scanner entrada = new Scanner(System.in);
     int op,op2;
-    float l,b,h;
+    float l,b,h,a;
     
         
         System.out.println("Bienvenido al programa para el cálculo de areas, perimetros y volumenes de figuras geometricas en 3 dimensiones \n");
@@ -58,9 +58,14 @@ public class Proyecto {
                         System.out.println("El perimetro es de: "+padre.perimetroC(l));
                
                 }
+                    case 3: {
+                        
+                        System.out.println("\n\nIngrese el valor de la arista: "); 
+                        a=entrada.nextFloat();
+                        System.out.println("El area es de: "+hija.volumenC(a));
+               
+                }
                     
-                   
-                   
                 }
         break;
 
