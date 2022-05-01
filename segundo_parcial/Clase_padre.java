@@ -7,7 +7,7 @@ package segundo_parcial;
  *
  * @author jdara
  */
-public class Clase_padre {
+public class Clase_Padre {
     
     
     public float areaC(float l){
@@ -32,15 +32,15 @@ public class Clase_padre {
         return perimetroC;
     }
     
-      public float PerimetroR(float h, float b){
+      public float perimetroR(float h, float b){
      float PerimetroR=(b+h)*2;
      return PerimetroR;
     }
     
 
-    public float PerimetroT(float h, float b){
-     float PerimetroT=(b+h)*2;
-     return PerimetroT;
+    public float perimetroT(float h, float b){
+     float perimetroT=(b+h)*2;
+     return perimetroT;
     }
 
 }

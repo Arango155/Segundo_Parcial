@@ -7,6 +7,6 @@ package segundo_parcial;
  *
  * @author jdara
  */
-public class Clase_hija  {
+public class Clase_Hija  {
     
 }
