@@ -64,12 +64,14 @@ public class Proyecto {
                         
                         System.out.println("\n\nIngrese el valor de la arista: "); 
                         a=entrada.nextFloat();
-                        System.out.println("El area es de: "+hija.volumenC(a));
+                        System.out.println("El volumen es de: "+hija.volumenC(a));
                
                           break;
                 }
                     
+                    default: System.out.println("La opcion ingresada es invalida");
                 }
+               
         break;
 
         
@@ -117,13 +119,13 @@ public class Proyecto {
                         b=entrada.nextFloat();
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
-                        System.out.println("El perimetro es de: "+hija.volumenR(h,b,a));
+                        System.out.println("El volumen es de: "+hija.volumenR(h,b,a));
                
                           break;
                 }
                     
                    
-                   
+                    default: System.out.println("La opcion ingresada es invalida");
                 }
         break;
 
@@ -148,7 +150,7 @@ public class Proyecto {
                         b=entrada.nextFloat();
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
-                        System.out.println("El perimetro es de: "+padre.areaT(h,b));
+                        System.out.println("El area es de: "+padre.areaT(h,b));
                
                           break;
                 }
@@ -169,40 +171,46 @@ public class Proyecto {
                         
                     switch (op3){
                    
-                        case 1: 
+                        case 1: {
                             
                         System.out.println("\n\nIngrese el valor del area de la base: "); 
                         ab=entrada.nextFloat();
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
-                        System.out.println("El perimetro es de: "+hija.volumenC(h,ab));
-                    
+                        System.out.println("El volumen es de: "+hija.volumenC(h,ab));
+                        
                       break;
+                        }
                       
-                    case 2:
+                    case 2:{
                     
                         System.out.println("\n\nIngrese el valor de la base: "); 
                         b=entrada.nextFloat();
-                        System.out.println("El area de la base es de: "+hija.areaB(b));
-                        ab=hija.areaB(b);
+                        System.out.println("El area de la base es de: "+hija.areaC(b));
+                        ab=hija.areaC(b);
                        
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
-                        System.out.println("El perimetro es de: "+hija.volumenC(h,ab));
+                        System.out.println("El volumen es de: "+hija.volumenC(h,ab));
+                    
                       break;
-                       
-                       
+                    }
+                
+                   default: System.out.println("La opcion ingresada es invalida");   
                 }
+                   
                  
                 break;
                    
-                  
-        
         
     }
+                     
+                     default: System.out.println("La opcion ingresada es invalida");  
 
 }
       break;
+      
+       default: System.out.println("La opcion ingresada es invalida");
     
         }
         

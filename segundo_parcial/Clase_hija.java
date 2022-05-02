@@ -15,17 +15,18 @@ public class Clase_Hija extends Clase_Padre {
     return volumenC;
     }
     
-    public float volumenR(float b, float h, float a){
-    float volumenR=a*b*h;
-        return volumenR;
-    }
-    
     public float volumenC(float ab, float h){
     float volumenC=ab*h;
         return volumenC;
     }
     
-    public float areaB(float b){
+    public float volumenR(float b, float h, float a){
+    float volumenR=a*b*h;
+        return volumenR;
+    }
+    
+    @Override
+    public float areaC(float b){
     float areaB=(float)Math.pow(b,2);
     return areaB;
     }

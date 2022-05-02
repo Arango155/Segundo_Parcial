@@ -20,12 +20,6 @@ public class Clase_Padre {
         float areaC=b*h;
         return areaC;
     }
-    
-    public float areaT(float h, float b){
-     float areaT=(b*h)/2;
-     return areaT;
-    }
-    
 
     public float perimetroC(float l){
     float perimetroC = l+l+l+l;
@@ -35,6 +29,11 @@ public class Clase_Padre {
      public float perimetroC(float h, float b){
      float PerimetroC=(b+h)*2;
      return PerimetroC;
+    }
+    
+     public float areaT(float h, float b){
+     float areaT=(b*h)/2;
+     return areaT;
     }
     
 
