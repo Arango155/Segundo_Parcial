@@ -50,6 +50,7 @@ public class Proyecto {
                         l=entrada.nextFloat();
                         System.out.println("El area es de: "+padre.areaC(l));
                
+                          break;
                 }
                     case 2: {
                         
@@ -57,6 +58,7 @@ public class Proyecto {
                         l=entrada.nextFloat();
                         System.out.println("El perimetro es de: "+padre.perimetroC(l));
                
+                          break;
                 }
                     case 3: {
                         
@@ -64,6 +66,7 @@ public class Proyecto {
                         a=entrada.nextFloat();
                         System.out.println("El area es de: "+hija.volumenC(a));
                
+                          break;
                 }
                     
                 }
@@ -92,8 +95,9 @@ public class Proyecto {
                         b=entrada.nextFloat();
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
-                        System.out.println("El area es de: "+padre.areaR(h,b));
-               
+                        System.out.println("El area es de: "+padre.areaC(h,b));
+                        
+                  break;
                 }
                     case 2: {
                         
@@ -101,8 +105,8 @@ public class Proyecto {
                         b=entrada.nextFloat();
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
-                        System.out.println("El perimetro es de: "+padre.perimetroR(h,b));
-               
+                        System.out.println("El perimetro es de: "+padre.perimetroC(h,b));
+                 break;
                 }
                     
                     case 3: {
@@ -115,6 +119,7 @@ public class Proyecto {
                         h=entrada.nextFloat();
                         System.out.println("El perimetro es de: "+hija.volumenR(h,b,a));
                
+                          break;
                 }
                     
                    
@@ -145,15 +150,16 @@ public class Proyecto {
                         h=entrada.nextFloat();
                         System.out.println("El perimetro es de: "+padre.areaT(h,b));
                
+                          break;
                 }
                     case 2: {
                         
                         System.out.println("\n\nIngrese el valor de la base: "); 
                         b=entrada.nextFloat();
-                        System.out.println("\n\nIngrese el valor de la altura: "); 
-                        h=entrada.nextFloat();
-                        System.out.println("El perimetro es de: "+padre.perimetroT(h,b));
-               
+                        System.out.println("\n\nIngrese el valor de uno de los lados del triangulo: "); 
+                        l=entrada.nextFloat();
+                        System.out.println("El perimetro es de: "+padre.perimetroT(l,b));
+                 break;
                 }
                     
                      case 3: {
@@ -171,7 +177,8 @@ public class Proyecto {
                         h=entrada.nextFloat();
                         System.out.println("El perimetro es de: "+hija.volumenT(h,ab));
                     
-                    
+                      break;
+                      
                     case 2:
                     
                         System.out.println("\n\nIngrese el valor de la base: "); 
@@ -182,9 +189,8 @@ public class Proyecto {
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
                         System.out.println("El perimetro es de: "+hija.volumenT(h,ab));
-                    
-                        
-        
+                      break;
+                       
                        
                 }
                  

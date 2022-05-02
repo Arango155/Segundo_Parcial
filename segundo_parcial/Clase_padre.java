@@ -15,10 +15,10 @@ public class Clase_Padre {
     return areaC;
     }
     
-    public float areaR(float h, float b){
+    public float areaC(float h, float b){
     
-        float areaR=b*h;
-        return areaR;
+        float areaC=b*h;
+        return areaC;
     }
     
     public float areaT(float h, float b){
@@ -32,14 +32,14 @@ public class Clase_Padre {
         return perimetroC;
     }
     
-      public float perimetroR(float h, float b){
-     float PerimetroR=(b+h)*2;
-     return PerimetroR;
+     public float perimetroC(float h, float b){
+     float PerimetroC=(b+h)*2;
+     return PerimetroC;
     }
     
 
-    public float perimetroT(float h, float b){
-     float perimetroT=(b+h)*2;
+    public float perimetroT(float l, float b){
+     float perimetroT=(b+(2*l));
      return perimetroT;
     }
 
