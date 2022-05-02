@@ -175,7 +175,7 @@ public class Proyecto {
                         ab=entrada.nextFloat();
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
-                        System.out.println("El perimetro es de: "+hija.volumenT(h,ab));
+                        System.out.println("El perimetro es de: "+hija.volumenC(h,ab));
                     
                       break;
                       
@@ -188,7 +188,7 @@ public class Proyecto {
                        
                         System.out.println("\n\nIngrese el valor de la altura: "); 
                         h=entrada.nextFloat();
-                        System.out.println("El perimetro es de: "+hija.volumenT(h,ab));
+                        System.out.println("El perimetro es de: "+hija.volumenC(h,ab));
                       break;
                        
                        

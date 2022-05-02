@@ -20,9 +20,9 @@ public class Clase_Hija extends Clase_Padre {
         return volumenR;
     }
     
-    public float volumenT(float ab, float h){
-    float volumenT=ab*h;
-        return volumenT;
+    public float volumenC(float ab, float h){
+    float volumenC=ab*h;
+        return volumenC;
     }
     
     public float areaB(float b){
